@@ -9,7 +9,10 @@ import android.view.ViewGroup;
  * An adapter that produces a view for all the rows in a cursor. Unlike the standard Android
  * {@link android.widget.Adapter}, this implementation creates views for every row in a cursor
  * at once. It is helpful when you are sure that there will always be a few of rows and your app
- * will not run out of memory because of creating too many views.
+ * will not run out of memory because of creating too many views. Widgets that use FullCursorAdapter
+ * do not provide neither scrolling nor view recycling because all views are always visible.
+ * However you can include such view into a ScrollView just in case some child views wouldn't fit
+ * on some small screens.
  *
  * @author Stepan Furdey
  */

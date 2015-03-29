@@ -3,7 +3,6 @@ package com.furdei.furdroid.components.graphics.drawable;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.res.*;
-//import android.content.res.ColorStateList;
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;
 import android.graphics.Outline;

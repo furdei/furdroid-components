@@ -3,7 +3,9 @@ package com.furdei.furdroid.components.widget;
 import android.database.Cursor;
 
 /**
- * Created by furdey on 14.06.14.
+ * A cursor for data that is not completely loaded into device.
+ *
+ * @author Stepan Furdey
  */
 public interface PartialCursor extends Cursor {
     boolean isCursorPartial();
