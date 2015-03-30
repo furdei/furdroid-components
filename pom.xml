@@ -25,7 +25,7 @@
     <scm>
         <url>https://github.com/furdei/furdroid-components</url>
         <connection>scm:git:git://github.com/furdei/furdroid-components.git</connection>
-        <developerConnection>cm:git:https://github.com/furdei/furdroid-components.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/furdei/furdroid-components.git</developerConnection>
         <tag>furdroid-components-1.0</tag>
     </scm>
 
